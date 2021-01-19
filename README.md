@@ -3,8 +3,9 @@
 
 Medical images are acquired at different resolutions based on clinical goals or available technology. In general, however, high-resolution images with fine structural details are preferred for visual task analysis. Recognizing this significance, several deep learning networks have been proposed to enhance medical images for reliable automated interpretation. These deep networks are often computationally complex and require a massive number of parameters, which restrict them to highly capable computing platforms with large memory banks. In this paper, we propose an efficient deep learning based super resolution approach that simultaneously reduces computational complexity and improves performance. The super-resolution model learns the mapping from low-resolution to high-resolution images. It has a simple architecture that is trained using multiple scales at once to minimize a proposed learning-loss function. 
 
-Scaled low resolution image    |  Super-resolution image
-:-------------------------    :|:    -------------------------:
+
+LR Image                   |  SISR Image
+:-------------------------:|:-------------------------:
 ![Alt-Text](scaled_LR_image1.png)  |  ![Alt-Text](predicted_img.png)
 
 
