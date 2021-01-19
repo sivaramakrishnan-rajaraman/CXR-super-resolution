@@ -10,8 +10,8 @@ LR Image                   |  SISR Image
 
 
 <p align="middle">
-  <img src="/scaled_LR_image1.png"/>
-  <img src="/predicted_img.png"/>
+  <img src="/scaled_LR_image1.png"/ "LR Image">
+  <img src="/predicted_img.png"/ "SISR Image">
 </p>
 
 ## Simplicity and Stability:
