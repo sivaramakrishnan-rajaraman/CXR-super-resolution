@@ -8,14 +8,6 @@ LR Image                   |  SISR Image
 :-------------------------:|:-------------------------:
 ![Alt-Text](scaled_LR_image1.png)  |  ![Alt-Text](predicted_img.png)
 
-
-<p align="middle">
-  <img src="/scaled_LR_image1.png"/ "LR Image">
-  <img src="/predicted_img.png"/ "SISR Image">
-</p>
-
-![alt-text-1](scaled_LR_image1.png "LR Image") ![alt-text-2](predicted_img.png "SISR Image")
-
 ## Simplicity and Stability:
 
 Our customized single image super-resolution (SISR) model, inspired by VDSR (20 conv. layers), has a shallower structure (7 conv. layers) with a lower number of training parameters. In addition, our proposed SISR model is easy to train and has a single network contrary to GAN-based networks which are difficult to train and require both generator and discriminator networks. Further, our proposed model is more stable and less sensitive to hyper-parameters selection as compared to most GAN-based models. As large models with massive number of parameters are restricted to computing platforms with large memory banks and computing capability, developing smaller and stable networks without losing representative accuracy is important to reduce the number of parameters and the storage size of the networks. This would boost the usage of these networks in limited-resource settings and embedded healthcare systems.
